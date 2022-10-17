@@ -18,7 +18,7 @@ export default function Modal({modalImage, toggleModal }) {
       return () => {
         window.removeEventListener('keydown', handleKeyDown)
       }
-    }, [])
+    })
 
 
         return (
